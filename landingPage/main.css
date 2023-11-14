@@ -1,0 +1,136 @@
+.halfwidth{
+    width: 40%;
+    float: left;
+    position:relative;
+}
+body{
+
+
+}
+.halfwidth img{
+    width: 66%;
+    position: absolute;
+    left: 50%;
+    padding-top: 100px;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+nav {
+   
+    justify-content: right;
+    background-image: linear-gradient(90deg, rgb(3, 38, 91), rgb(3, 38, 91) );
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 700px;
+
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    margin: 0;
+}
+
+a {
+    display: block;
+    padding: 1em 2em;
+    color: #bcb2b2;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+a:hover {
+    background-color: #024486;
+    border-radius: 10px;
+}
+.top-left{
+    margin-left: 50px;
+}
+
+h1{
+    color: #bcb2b2;
+    font-size: 50px;
+}
+p{
+    color: #bcb2b2;
+}
+
+form {
+    color: #2a2828;
+    display: flex;
+    padding: 2px;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+  }
+  input[type="search"] {
+    border: none;
+    background: #bcb2b2;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    
+  }
+
+#search{
+    width: 45px;
+    height: 45px;
+    background-color: #bcb2b2;
+    opacity: 80%;
+}
+ #search:hover {
+    background-color: #3f4143;
+}
+
+  .logo{
+    font-size: 18px;
+    color: #bcb2b2;
+    justify-content: left;
+    padding: 10px 5px;
+    margin: 0px 50px;
+    border: 0px;
+    float: left;
+    position:absolute;
+    padding: 1em 0em;
+}
+
+.partition-one{
+   background-image: linear-gradient(90deg, rgb(0, 25, 62), rgb(9, 2, 33)) ;
+   height:718px;
+}
+section{
+    height: 718px;
+    width: 100%; 
+    
+}
+.partition-two{
+    background-color: whitesmoke;
+    height:718px;
+
+ }
+
+ .partition-three{
+    background-color: black;
+    height:718px;
+    border:20px solid rgb(0, 25, 62);
+ }
+.partition-two-halfwidth{
+    width: 33%;
+    float: left;
+    position:relative;
+    background-color: whitesmoke;
+    height:718px;
+}
