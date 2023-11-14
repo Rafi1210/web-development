@@ -63,6 +63,8 @@ a:hover {
 h1{
     color: #bcb2b2;
     font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 p{
     color: #bcb2b2;
@@ -151,4 +153,15 @@ section{
       font-size: 23px;
       font-weight: 750;
       background-image:linear-gradient(180deg, rgb(3, 38, 91), rgb(6, 64, 158));
+}
+
+.border-area{
+    box-shadow:5px 5px 30px grey ;
+    border-radius: 5px;
+    height: 90%;
+    width: 31%;
+    border:2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 25px;
 }
