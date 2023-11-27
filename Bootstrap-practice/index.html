@@ -3,9 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bootstrap Booting</title>
+    <link rel="stylesheet" href="bstrap/css/bootstrap.min.css">
+    <style>
+      .container{
+        display: flex;
+        max-width: 1360px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        gap: 10px 5px;
+    }
+    .food{
+        border: 3px solid lightgray;
+        border-radius: 30px;
+        margin: 10px;
+        padding: 10px;
+        width: 400px;
+        text-align: justify;
+    }
+    .food img{
+        width: 100%;
+    }
+  
+    </style>
 </head>
 <body>
     <h1>Hello Bootstrap</h1>
+    <button type="button" class="btn btn-dark">Base class</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark btn-info">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <body>
+    <div class="container">
+    <div class="food">
+        <img src="food.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolorem illo, maiores laboriosam ab sequi officia molestiae consequuntur porro in saepe asperiores. Officiis nulla qui impedit tenetur, cupiditate vitae consequuntur dicta modi corporis aspernatur sapiente adipisci sit natus recusandae. Nesciunt ipsa aut molestiae explicabo esse ex nostrum dolorum excepturi, corporis perferendis suscipit quod reprehenderit facere tenetur? Provident aspernatur ipsum, mollitia ut minus molestias commodi officiis in! Atque itaque in recusandae, minima nemo, tempora ut illum velit ex vero officiis natus vitae nihil a expedita omnis minus ipsam laudantium cupiditate perferendis enim iste deleniti consectetur. Vero cupiditate rerum quae assumenda corporis?</p>
+    </div>
+    <div class="food">
+        <img src="food.jpeg" alt="">
+        <p>Fugit quasi magnam accusantium beatae? Alias consequuntur at beatae? Molestiae, unde repellat necessitatibus optio obcaecati harum cum dignissimos, at dolor eius suscipit blanditiis expedita accusantium nobis. Enim tenetur magni, non necessitatibus eius dolores? Deserunt inventore, eveniet eum asperiores ab dolorem corrupti sint ratione nulla officia delectus aliquam temporibus? Nesciunt quisquam natus eveniet vel magnam et laboriosam deserunt. Ratione sunt numquam consequatur soluta hic vero inventore, consequuntur libero nesciunt magnam placeat culpa dolore ducimus blanditiis fugit consectetur necessitatibus tempora! Quaerat nobis, reiciendis ipsa explicabo illo ipsam laboriosam, dolor et ab aliquid, est nostrum iure error excepturi distinctio recusandae minima necessitatibus ex?</p>
+    </div>
+    <div class="food">
+        <img src="food.jpeg" alt="">
+        <p>Accusamus, ut fugit? Asperiores dolores quasi unde ut cupiditate sunt cum soluta culpa! Sunt quidem similique quam facilis soluta unde, atque ipsam explicabo aspernatur fugit molestias, labore ipsa sint iste? Amet quos ipsam iste, fuga quibusdam ab. Laboriosam deleniti adipisci repellat, similique, iure consequatur id blanditiis iste eaque ipsam optio hic in quod, dolore temporibus deserunt! Odit nobis, vero culpa quidem, praesentium minima necessitatibus harum architecto impedit repellat sint dolorum aut nisi quisquam eligendi quo ad labore distinctio in? Nostrum magnam perspiciatis hic commodi quasi aut itaque veniam porro, culpa cumque magni sed iste necessitatibus inventore. Atque sed iure aspernatur?</p>
+    </div>
+    <div class="food">
+        <img src="food.jpeg" alt="">
+        <p>Omnis reiciendis ea incidunt quis numquam cum exercitationem? Repellat commodi quae, ipsa officia similique cupiditate aliquid hic quam est pariatur reprehenderit deleniti ad velit nemo sit voluptatibus et? Provident maxime animi eligendi et cupiditate quaerat earum ab facere error nostrum tempore nam voluptatibus vitae officia deleniti, veniam non! Sunt possimus in voluptatem impedit. Nulla in laborum eaque non, illo ea molestiae ipsum eveniet provident quae sequi iusto, modi a expedita, facere officia et mollitia placeat numquam. Recusandae id, placeat sequi ipsum excepturi sunt eveniet architecto sapiente sint ducimus nostrum culpa fugit unde nisi, necessitatibus quidem quod maxime earum voluptatum nemo.</p>
+    </div>
+    <div class="food">
+        <img src="food.jpeg" alt="">
+        <p>Eius aliquid nisi perspiciatis exercitationem voluptatibus sint doloribus libero illum magni mollitia inventore, quis quae voluptas reiciendis autem in eveniet? Culpa animi suscipit recusandae possimus reprehenderit dicta odit ipsam incidunt minima doloremque molestiae harum facilis nisi dolores necessitatibus blanditiis ducimus deleniti unde, similique numquam architecto sequi a. Eveniet accusantium alias blanditiis quis dolorum, nesciunt maxime excepturi non corporis, reiciendis itaque aspernatur veniam dolor vel pariatur nobis exercitationem et a consequatur temporibus fugit velit odit? Aut ut consectetur recusandae inventore sed numquam iusto fugit, vitae natus deleniti impedit error quibusdam, obcaecati, laboriosam qui quidem quod voluptatem itaque! Aliquid vero sit ab!</p>
+    </div>
+    <div class="food">
+        <img src="food.jpeg" alt="">
+        <p>Vel quod esse impedit nobis, provident, fugit aperiam nulla accusamus ex tempora ipsum itaque quidem ipsam officiis cupiditate temporibus exercitationem velit enim neque perferendis earum molestiae! Maiores quibusdam at et voluptatum, dolorem eos itaque facere delectus nihil doloremque ea commodi repellat illum rerum nam laudantium nisi, consequuntur corporis unde deserunt ducimus! Molestias quis delectus sapiente consequuntur in, quos dolor, aspernatur veniam eligendi quas eveniet ullam perspiciatis? Ex placeat magnam pariatur veritatis odio! Quidem, sequi iusto aspernatur fugiat at deleniti, omnis earum praesentium vitae, voluptate repellendus! Dolore doloremque assumenda dolores aut minus quas inventore, incidunt ab animi explicabo aliquam? Consequatur, ratione?</p>
+    </div>
+</div>
+
 </body>
 </html>
